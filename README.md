@@ -4,9 +4,11 @@ A modern, animated 3D website built with React.js, Tailwind CSS, and Framer Moti
 
 ## 🚀 Live Demo
 
+[View Live Site](https://kodawavetask.netlify.app/)
+
 ## 📂 GitHub Repository
 
-[GitHub Repo Link](https://github.com/your-username/kodawave-internship)
+[GitHub Repo Link](https://github.com/meherunnesaenta/kodawave-intern-task)
 
 ---
 
@@ -54,6 +56,121 @@ A modern, animated 3D website built with React.js, Tailwind CSS, and Framer Moti
 ### Steps to Run Locally
 
 1. **Clone the repository**
-```bash
-git clone https://github.com/your-username/kodawave-internship.git
-cd kodawave-internship
+
+git clone https://github.com/meherunnesaenta/kodawave-intern-task.git
+cd kodawave-intern-task
+Install dependencies
+
+bash
+npm install
+Start development server
+
+bash
+npm run dev
+Build for production
+
+bash
+npm run build
+Preview production build
+
+bash
+npm run preview
+
+
+📁 Project Structure
+src/
+├── components/
+│   ├── card/
+│   │   ├── ServiceCard.jsx
+│   │   └── PricingCard.jsx
+│   ├── Home/
+│   │   ├── About.jsx
+│   │   ├── MouseFollower.jsx
+│   │   └── Hero.jsx
+│   ├── Shared/
+│   │   ├── Navbar.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Header.jsx
+│   │   └── Logo.jsx
+│   ├── PricingSection.jsx
+│   ├── TestimonialSlider.jsx
+│   ├── AnimatedSection.jsx
+│   └── 3d/
+│       └── HeroSphere.jsx
+├── pages/
+│   ├── Home.jsx
+│   ├── Services.jsx
+│   ├── About.jsx
+│   ├── Blog.jsx
+│   ├── BlogPost.jsx
+│   └── Contact.jsx
+├── data/
+│   ├── blogData.js
+│   ├── servicesData.js
+│   └── testimonials.js
+├── layouts/
+│   └── Root.jsx
+├── App.jsx
+├── main.jsx
+└── index.css
+
+## 🎨 Color Theme
+
+Mode	Primary	Secondary	Accent
+Light	Teal (#14b8a6)	Blue (#3b82f6)	Purple (#8b5cf6)
+Dark	Neon Teal (#2dd4bf)	Bright Blue (#60a5fa)	Soft Purple (#a78bfa)
+## 🚀 Deployment
+ 
+The project is deployed on Netlify:
+
+Build the project: npm run build
+
+Deploy the dist folder to Netlify
+
+Configure redirects for React Router (included in netlify.toml)
+
+## 📱 Responsive Breakpoints
+Device	Breakpoint
+Mobile	< 768px
+Tablet	768px - 1024px
+Desktop	> 1024px
+## 🎯 Performance Optimizations
+✅ Lazy loading for images
+
+✅ Code splitting with React.lazy()
+
+✅ Optimized 3D rendering
+
+✅ Minimal bundle size with Vite
+
+## 📝 Assessment Requirements Fulfilled
+Requirement	Status
+React.js with Vite	✅
+Tailwind CSS	✅
+Framer Motion animations	✅
+React Router	✅
+GSAP (optional)	✅
+Three.js / React Three Fiber	✅
+Responsive design	✅
+Clean component structure	✅
+GitHub repository	✅
+Live deployment (Netlify)	✅
+## 👨‍💻 Author
+Meherun Nesa Enta
+
+GitHub: @meherunnesaenta
+
+LinkedIn: Meherun Nesa Enta
+
+## 📅 Submission Date
+April 9, 2026
+
+## 🙏 Acknowledgments
+Design inspiration from Gradia
+
+Icons from React Icons
+
+Images from Unsplash
+
+## 📄 License
+This project is created for Kodawave internship assessment purposes.
