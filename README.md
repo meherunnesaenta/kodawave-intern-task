@@ -76,49 +76,6 @@ Preview production build
 bash
 npm run preview
 
-
-📁 Project Structure
-src/
-├── components/
-│   ├── card/
-│   │   ├── ServiceCard.jsx
-│   │   └── PricingCard.jsx
-│   ├── Home/
-│   │   ├── About.jsx
-│   │   ├── MouseFollower.jsx
-│   │   └── Hero.jsx
-│   ├── Shared/
-│   │   ├── Navbar.jsx
-│   │   ├── Footer.jsx
-│   │   ├── Header.jsx
-│   │   └── Logo.jsx
-│   ├── PricingSection.jsx
-│   ├── TestimonialSlider.jsx
-│   ├── AnimatedSection.jsx
-│   └── 3d/
-│       └── HeroSphere.jsx
-├── pages/
-│   ├── Home.jsx
-│   ├── Services.jsx
-│   ├── About.jsx
-│   ├── Blog.jsx
-│   ├── BlogPost.jsx
-│   └── Contact.jsx
-├── data/
-│   ├── blogData.js
-│   ├── servicesData.js
-│   └── testimonials.js
-├── layouts/
-│   └── Root.jsx
-├── App.jsx
-├── main.jsx
-└── index.css
-
-## 🎨 Color Theme
-
-Mode	Primary	Secondary	Accent
-Light	Teal (#14b8a6)	Blue (#3b82f6)	Purple (#8b5cf6)
-Dark	Neon Teal (#2dd4bf)	Bright Blue (#60a5fa)	Soft Purple (#a78bfa)
 ## 🚀 Deployment
  
 The project is deployed on Netlify:
